@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^12.1.0",
-    "npm-git-helper": "^1.0.0",
+    "npm-git-helper": "^1.0.1",
     "simple-git": "^3.27.0"
   }
 }
