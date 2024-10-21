@@ -1,5 +1,5 @@
 {
-  "name": "git-helper",
+  "name": "npm-git-helper",
   "version": "2.0.0",
   "description": "Automation for Git",
   "main": "index.js",
