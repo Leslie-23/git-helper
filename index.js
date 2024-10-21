@@ -2,6 +2,8 @@ const { program } = require("commander");
 const simpleGit = require("simple-git");
 const git = simpleGit();
 
+console.log("Arguments received:", process.argv);
+
 program.version("1.0.0").description("A CLI tool to automate Git operations");
 
 // Command for saving, committing, and pushing changes
