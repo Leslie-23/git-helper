@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+// the line above is the shebang line to make this entry point code accessible
+
 const { program } = require("commander");
 const simpleGit = require("simple-git");
 const git = simpleGit();
