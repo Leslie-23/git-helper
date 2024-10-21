@@ -1,0 +1,23 @@
+{
+  "name": "npm-git-helper",
+  "version": "1.0.0",
+  "description": "Automation for Git",
+  "main": "index.js",
+  "bin": {
+    "git-helper": "./git-helper.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "automation",
+    "github-automation"
+  ],
+  "author": "Leslie Paul Ajayi",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "simple-git": "^3.27.0"
+  }
+}
