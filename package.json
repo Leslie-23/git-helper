@@ -1,25 +1,38 @@
 {
   "name": "npm-git-helper",
-  "version": "2.0.1",
-  "description": "Automation for Git",
+  "version": "2.1.0",
+  "description": "A CLI tool to automate common Git operations like staging, committing, and pushing changes",
   "main": "index.js",
   "bin": {
     "git-helper": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "start": "node index.js"
   },
   "keywords": [
     "git",
     "automation",
-    "github-automation"
+    "github-automation",
+    "cli",
+    "git-helper",
+    "workflow"
   ],
   "author": "Leslie Paul Ajayi",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leslie-23/git-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leslie-23/git-helper/issues"
+  },
+  "homepage": "https://github.com/Leslie-23/git-helper#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "commander": "^12.1.0",
-    "npm-git-helper": "^1.0.1",
     "simple-git": "^3.27.0"
   }
 }
